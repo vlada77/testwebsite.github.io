@@ -1,0 +1,153 @@
+header {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.logo {
+    text-decoration: none;
+    color: #111;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10;
+}
+
+
+
+
+
+/*for the unordered list in nav bar*/
+#navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #aaaaaa;
+    text-align: center;
+}
+
+/*for each list element*/
+.horizontal_list {
+    display: inline;
+    /* you can use display: inline to have the block elements behave like inline elements and viceversa*/
+    /* I could also do float: left but it will move all elements to the left of the container */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*for content in each list element*/
+.element {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*if you want to do a:hover but only for the elemtents of the class list*/
+a.element:hover {
+    background-color: #111;
+}
+
+/*highlights the page we are on now*/
+#current {
+    font-style: italic;
+}
+
+
+
+
+
+body {
+    background-color: #e7e7e7;
+}
+
+
+/*just for the main body we want it to flow in between the footer and header*/
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    flex-grow: 1;
+    /* Allow main to grow and fill the space between header and footer */
+    margin-top: 20px;
+    /* Offset main to be below the header */
+    margin-bottom: 120px;
+    /* Prevent main content from overlapping the footer */
+    padding: 20px;
+    overflow-y: auto;
+    /* Enable vertical scrolling for content */
+}
+
+h3 .material-icons {
+    padding-right: 20px;
+}
+
+h3 {
+    font-family: "Dancing Script", system-ui;
+    font-size: 30px;
+    margin-top: 20px;
+    border-width: 3px;
+    border-bottom-style: dotted;
+}
+
+/*takes the dots from the list and the indent*/
+.menulist {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+/* for the list element to put two information sections that are spaced in between each other*/
+.inlinediv1 {
+    display: inline;
+}
+
+.inlinediv2 {
+    display: inline;
+    float: right;
+}
+
+
+
+
+
+
+
+/*makes footer fixed and alligned */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /* Make sure footer stretches across the width */
+    height: 100px;
+    display: block;
+    justify-content: center;
+    /* Horizontally center content */
+    align-items: center;
+    /* Vertically center content */
+    text-align: center;
+    background-color: #dbdbdb;
+}
+
+h6 {
+    font-size: 20px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.logofooter {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+.material-icons {
+    color: grey;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
