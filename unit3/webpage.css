@@ -1,0 +1,119 @@
+header,
+footer {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    font-family: sans-serif;
+}
+
+.allign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+
+}
+
+.img {
+    display: inline;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.texttop {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(54, 54, 54);
+    padding: 0;
+    margin: 0;
+}
+
+.horizontal_list {
+    float: left;
+    /*can also do display:inline , but then in .element we wouldn't have to say display block*/
+}
+
+.element {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+a.element:hover {
+    background-color: rgb(86, 86, 86);
+}
+
+
+
+
+.sectionclass {
+    display: flex;
+}
+
+.section1 {
+    display: inline;
+    /*can also say float:left*/
+    width: 82%;
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+    height: 400px;
+}
+
+.section2 {
+    display: inline;
+    /* can also say float:right*/
+    width: 18%;
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    padding-right: 15px;
+    line-height: 1.3;
+    height: 400px;
+}
+
+
+
+.contentbox {
+    padding: 0 10px 0 10px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+
+}
+
+.footerdiv1 {
+    display: inline;
+    /* can also say float: left*/
+    width: 33.3333333333%;
+    background-color: rgb(97, 97, 97);
+}
+
+.footerdiv2 {
+    display: inline;
+    /* can also say float: left*/
+    width: 33.3333333333%;
+    background-color: rgb(155, 155, 155);
+}
+
+.footerdiv3 {
+    display: inline;
+    /* can also say float: right*/
+    width: 33.3333333333%;
+    background-color: rgb(124, 124, 124);
+}

@@ -1,0 +1,63 @@
+h1 {
+    color: #5C4033;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+#profilepic {
+    float: left;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+header {
+    background-color: #C19A6B;
+    text-align: center;
+}
+
+.awards {
+    color: #ff9100;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: smaller;
+    list-style: none;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.material-icons {
+    font-size: 10px;
+}
+
+.boxed {
+    border-color: rgb(52, 27, 27);
+    background-color: #fff6eb;
+    border-width: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#education {
+    text-decoration: wavy;
+}
+
+.hackathons {
+    border-width: 2px;
+    border-color: #5C4033;
+    border-style: solid;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-right: 30px;
+}
